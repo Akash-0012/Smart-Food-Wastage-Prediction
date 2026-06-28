@@ -2,6 +2,13 @@
   <img src="Images/project_banner.png" alt="Smart Food Wastage Prediction System Banner" width="100%">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn">
+  <img src="https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
+
 # 🍽️ Smart Food Wastage Prediction System
 
 An end-to-end Machine Learning project that predicts restaurant food wastage using historical operational data. The system helps restaurants estimate potential food waste based on event details, food quantity, guest count, and other operational factors, enabling better food planning and reducing unnecessary wastage.
