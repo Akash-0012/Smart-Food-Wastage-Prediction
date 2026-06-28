@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Images/project_banner.png" alt="Smart Food Wastage Prediction System Banner" width="100%">
+</p>
+
 # 🍽️ Smart Food Wastage Prediction System
 
 An end-to-end Machine Learning project that predicts restaurant food wastage using historical operational data. The system helps restaurants estimate potential food waste based on event details, food quantity, guest count, and other operational factors, enabling better food planning and reducing unnecessary wastage.
