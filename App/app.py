@@ -8,9 +8,14 @@ import joblib
 # Load Saved Files
 # -------------------------
 
-model = joblib.load('food_wastage_model.pkl')
-scaler = joblib.load('scaler.pkl')
-encoders = joblib.load('encoders.pkl')
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+MODEL_DIR = os.path.join(BASE_DIR, "..", "Model")
+
+model = joblib.load(os.path.join(MODEL_DIR, "food_wastage_model.pkl"))
+encoders = joblib.load(os.path.join(MODEL_DIR, "label_encoders.pkl"))
+scaler = joblib.load(os.path.join(MODEL_DIR, "scaler.pkl"))
 
 
 # -------------------------
